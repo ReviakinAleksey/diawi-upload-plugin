@@ -1,0 +1,48 @@
+{
+  "LOCATION": {
+    "secure": false,
+    "value": "app/build/outputs/apk/app-debug.apk",
+    "required": false
+  },
+  "INSTALLATION_NOTIFICATIONS": {
+    "secure": false,
+    "required": false
+  },
+  "WALL_OF_APPS": {
+    "secure": false,
+    "required": false
+  },
+  "PASSWORD": {
+    "secure": false,
+    "value": "",
+    "required": false
+  },
+  "CALLBACK_EMAILS": {
+    "secure": false,
+    "required": false
+  },
+  "CALLBACK_URL": {
+    "secure": false,
+    "value": "",
+    "required": false
+  },
+  "FIND_BY_UDID": {
+    "secure": false,
+    "required": false
+  },
+  "RESPONSE": {
+    "secure": false,
+    "value": "app/build/outputs/apk/diawi-link.txt",
+    "required": false
+  },
+  "TOKEN": {
+    "secure": false,
+    "value": "WCB057SdCfuE2kWoj9KwKAvKGdGQZFfFYDiNRYxeLx",
+    "required": false
+  },
+  "COMMENT": {
+    "secure": false,
+    "value": "",
+    "required": false
+  }
+}

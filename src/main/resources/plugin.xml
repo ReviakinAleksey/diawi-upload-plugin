@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<go-plugin id="${groupId}.${name}" version="1">
+    <about>
+        <name>${name}</name>
+        <version>${version}</version>
+        <target-go-version>${go.version}</target-go-version>
+        <description>Publish artifacts to https://www.diawi.com/</description>
+        <vendor>
+            <name>Aleksey Reviakin</name>
+            <url>https://github.com/ReviakinAleksey</url>
+        </vendor>
+        <target-os>
+            <value>Linux</value>
+            <value>Mac OS X</value>
+            <value>Windows</value>
+        </target-os>
+    </about>
+</go-plugin>

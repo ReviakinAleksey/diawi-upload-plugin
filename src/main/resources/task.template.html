@@ -1,0 +1,70 @@
+<div class="form_item_block">
+    <label>Diawi API Token:<span class="asterisk">*</span></label>
+    <input type="text" ng-model="TOKEN" ng-required="true"/>
+    <span class="form_error" ng-show="GOINPUTNAME[TOKEN].$error.server">{{ GOINPUTNAME[TOKEN].$error.server }}</span>
+</div>
+
+<div class="form_item_block">
+    <label>Upload artifact location:<span class="asterisk">*</span></label>
+    <input type="text" ng-model="LOCATION" ng-required="true"/>
+    <span class="form_error"
+          ng-show="GOINPUTNAME[LOCATION].$error.server">{{ GOINPUTNAME[LOCATION].$error.server }}</span>
+</div>
+
+<div class="form_item_block">
+    <label>Save Diawi response to file:</label>
+    <input type="text" ng-model="RESPONSE"/>
+    <span class="form_error" ng-show="GOINPUTNAME[RESPONSE].$error.server">{{ GOINPUTNAME[RESPONSE].$error.server }}</span>
+</div>
+
+<div class="form_item_block">
+    <label>
+        <input type="checkbox" ng-model="WALL_OF_APPS" ng-true-value="true" ng-false-value="false"/>
+        Allow Diawi to display the app's icon on the wall of apps
+    </label>
+    <span class="form_error" ng-show="GOINPUTNAME[WALL_OF_APPS].$error.server">{{ GOINPUTNAME[WALL_OF_APPS].$error.server }}</span>
+</div>
+
+<div class="form_item_block">
+    <label>Protect your app with a password</label>
+    <input type="text" ng-model="PASSWORD"/>
+    <span class="form_error"
+          ng-show="GOINPUTNAME[PASSWORD].$error.server">{{ GOINPUTNAME[PASSWORD].$error.server }}</span>
+</div>
+
+<div class="form_item_block">
+    <label>Additional information to your users on this build</label>
+    <input type="text" ng-model="COMMENT"/>
+    <span class="form_error"
+          ng-show="GOINPUTNAME[COMMENT].$error.server">{{ GOINPUTNAME[COMMENT].$error.server }}</span>
+</div>
+
+<div class="form_item_block">
+    <label>The URL Diawi should call with the result</label>
+    <input type="text" ng-model="CALLBACK_URL"/>
+    <span class="form_error" ng-show="GOINPUTNAME[CALLBACK_URL].$error.server">{{ GOINPUTNAME[CALLBACK_URL].$error.server }}</span>
+</div>
+
+<div class="form_item_block">
+    <label>The email addresses Diawi will send the result</label>
+    <input type="text" ng-model="DIAWI_CALLBACK_EMAILS"/>
+    <span class="form_error" ng-show="GOINPUTNAME[DIAWI_CALLBACK_EMAILS].$error.server">{{ GOINPUTNAME[DIAWI_CALLBACK_EMAILS].$error.server }}</span>
+</div>
+
+
+<div class="form_item_block">
+    <label>
+        <input type="checkbox" ng-model="FIND_BY_UDID" ng-true-value="true" ng-false-value="false"/>
+        Allow your testers to find the app on Diawi's mobile web app using their UDID
+    </label>
+    <span class="form_error" ng-show="GOINPUTNAME[FIND_BY_UDID].$error.server">{{ GOINPUTNAME[FIND_BY_UDID].$error.server }}</span>
+</div>
+
+
+<div class="form_item_block">
+    <label>
+        <input type="checkbox" ng-model="INSTALLATION_NOTIFICATIONS" ng-true-value="true" ng-false-value="false"/>
+        Receive notifications each time someone installs the app
+    </label>
+    <span class="form_error" ng-show="GOINPUTNAME[INSTALLATION_NOTIFICATIONS].$error.server">{{ GOINPUTNAME[INSTALLATION_NOTIFICATIONS].$error.server }}</span>
+</div>

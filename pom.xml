@@ -90,6 +90,7 @@
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
                                     <outputDirectory>${project.basedir}/dist</outputDirectory>
+                                    <destFileName>${project.artifactId}.jar</destFileName>
                                 </artifactItem>
 
                             </artifactItems>
